@@ -1,5 +1,16 @@
 <template>
-    <c-portfolio-navigation-header></c-portfolio-navigation-header>
-    <c-portfolio-body></c-portfolio-body>
-    <c-portfolio-footer></c-portfolio-footer>
+    <div class="background">
+        <c-portfolio-navigation-header
+            onnavigationhandle={handleNavigation}>
+        </c-portfolio-navigation-header>
+        <c-portfolio-body
+            show-about={showAbout}
+            show-experience={showExperience}
+            show-project={showProject}
+            show-skills={showSkills}
+            show-contact={showContact}>
+        </c-portfolio-body>
+        <c-portfolio-footer></c-portfolio-footer>
+    </div>
+        
 </template>
