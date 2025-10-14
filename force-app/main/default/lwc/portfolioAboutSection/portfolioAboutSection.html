@@ -1,3 +1,28 @@
 <template>
-    About
+    <div class="container">
+        <div class="info">
+            <p class="hi">Hi, I'm</p>
+            <p class="name"><span style="color: #E6AF2E; font-weight:900">Prasanna </span>Anjankar</p>
+            <p class="about">
+                Seasoned Salesforce Artisan with a rich 2+ years of crafting immersive digital experiences. 
+            </p>
+            <div class="socialLink">
+                <div class="icon">
+                    <a href={trailhead} target="_blank"><img class="iconImg" src={trailheadIcon}></a>
+                </div>        
+                <div class="icon">
+                    <a href={linkedinUrl} target="_blank"><img class="iconImg" src={linkedInIcon}></a>
+                </div>       
+                <div class="icon">
+                    <a href={github} target="_blank"><img class="iconImg" src={githubIcon}></a>
+                </div>
+                <div class="icon">
+                    <a href={leetcode} target="_blank"><img class="iconImg" src={leetcodeIcon}></a>
+                </div>
+            </div>
+        </div>
+        <div class="profilepic">
+            <img class="img" src={imageUrl} alt="">
+        </div>
+    </div>
 </template>

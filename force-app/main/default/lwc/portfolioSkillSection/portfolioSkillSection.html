@@ -1,3 +1,14 @@
 <template>
-    Skills
+    <div class="container">
+        <template for:each={skills} for:item="skill">
+            <div class="skillset" key={skill.Id}>
+                <p class="heading">{skill.category}</p>
+                <ul>
+                    <template for:each={skill.skills} for:item="skill">
+                        <li key={skill}><span class="badge">{skill}</span></li>
+                    </template>
+                </ul>
+            </div>
+        </template>
+    </div>
 </template>

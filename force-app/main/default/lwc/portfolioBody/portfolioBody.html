@@ -6,10 +6,10 @@
         <c-portfolio-experience-section></c-portfolio-experience-section> 
     </template>
     <template lwc:if={showProject}>
-        <c-portfolio-project-section></c-portfolio-project-section>
+        <c-portfolio-project-section projects={projects}></c-portfolio-project-section>
     </template>
     <template lwc:if={showSkills}>
-        <c-portfolio-skill-section></c-portfolio-skill-section>
+        <c-portfolio-skill-section skills={skills}></c-portfolio-skill-section>
     </template>
     <template lwc:if={showContact}>
         <c-portfolio-contact-me-section></c-portfolio-contact-me-section>
