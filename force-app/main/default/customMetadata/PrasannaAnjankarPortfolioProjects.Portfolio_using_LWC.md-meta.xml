@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Portfolio using LWC</label>
+    <protected>false</protected>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+    <values>
+        <field>Project_Description__c</field>
+        <value xsi:type="xsd:string">Personalized portfolioo created using Lightning Web Components on Salesforce Experience Cloud to showcase my skills, experiences, and the innovative technologies I&apos;ve embraced throughout Experience.</value>
+    </values>
+    <values>
+        <field>Project_Name__c</field>
+        <value xsi:type="xsd:string">Portfolio using LWC</value>
+    </values>
+    <values>
+        <field>Skills__c</field>
+        <value xsi:type="xsd:string">Lightning web Components, Apex.</value>
+    </values>
+</CustomMetadata>

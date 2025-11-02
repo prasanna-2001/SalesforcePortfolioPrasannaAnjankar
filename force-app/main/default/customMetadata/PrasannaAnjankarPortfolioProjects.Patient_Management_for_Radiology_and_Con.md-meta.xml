@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Patient Management for Radiology and Con</label>
+    <protected>false</protected>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>Project_Description__c</field>
+        <value xsi:type="xsd:string">Built a Patient 360 dashboard enabling faster
+query resolution. Developed Batch Apex and Queueable Apex to sync Health Cloud data with Marketing Cloud for
+targeted campaigns ensuring governor limit compliance. Bridged RIS with Salesforce via REST API for real-time
+patient data. Configured Omni-Channel for live chat/voice handling and set up Experience Cloud for centralized
+knowledge management. Managed Roles and Profiles.</value>
+    </values>
+    <values>
+        <field>Project_Name__c</field>
+        <value xsi:type="xsd:string">Patient Management for Radiology and Contact Center</value>
+    </values>
+    <values>
+        <field>Skills__c</field>
+        <value xsi:type="xsd:string">LWC,Asynchronous Apex,Flows,Triggers</value>
+    </values>
+</CustomMetadata>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Devotee Management</label>
+    <protected>false</protected>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">4.0</value>
+    </values>
+    <values>
+        <field>Project_Description__c</field>
+        <value xsi:type="xsd:string">Integrated Google Forms with Salesforce to manage devotee contacts on Salesforce CRM and keep track of all the accounts of SSSO UK. Performed data modeling by creating custom objects, fields and relationships to support business process</value>
+    </values>
+    <values>
+        <field>Project_Name__c</field>
+        <value xsi:type="xsd:string">Devotee Management</value>
+    </values>
+    <values>
+        <field>Skills__c</field>
+        <value xsi:type="xsd:string">Google OAuth Playground,Salesforce Rest Resource, Apex</value>
+    </values>
+</CustomMetadata>

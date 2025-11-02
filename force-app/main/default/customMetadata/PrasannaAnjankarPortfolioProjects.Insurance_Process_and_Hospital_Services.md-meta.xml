@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Insurance Process and Hospital Services</label>
+    <protected>false</protected>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Project_Description__c</field>
+        <value xsi:type="xsd:string">Automated insurance workflows. Established data synchronization
+between client’s systems and Salesforce using REST API for real-time data, quote/proposal creation for insurance,
+patient verification. Created complex Custom Medical Questionnaire form using LWC to capture patient medical
+data. Built record-triggered/screen flows for Lead and Opportunity management, configured Salesforce Security, and
+added a third-party chatbot using Bring Your Own Chat (BYOC) for improved customer engagement.</value>
+    </values>
+    <values>
+        <field>Project_Name__c</field>
+        <value xsi:type="xsd:string">Insurance Process and Hospital Services</value>
+    </values>
+    <values>
+        <field>Skills__c</field>
+        <value xsi:type="xsd:string">LWC,Asynchronous Apex,Flows,Triggers</value>
+    </values>
+</CustomMetadata>
