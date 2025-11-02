@@ -1,0 +1,46 @@
+<template>
+     <div class="certSlideShow">
+        <!-- <lightning-carousel >
+            <template for:each={certificates} for:item="certificate">
+                <lightning-carousel-image key={certificate.id} src={certificate.link} header={certificate.name} alternative-text={certificate.name>
+                </lightning-carousel-image>
+            </template>
+        </lightning-carousel> -->
+            <div class="carousel-wrapper" style={carouselStyle}>
+        <div
+            class="carousel-track"
+            style={trackStyle}
+            ontouchstart={handleTouchStart}
+            ontouchend={handleTouchEnd}
+        >
+            <template for:each={certificates} for:item="certificate">
+                <div key={certificate.id} class="carousel-slide">
+                    <img src={certificate.link} alt={certificate.name} />
+                </div>
+            </template>
+        </div>
+    </div>
+    </div> 
+    
+    
+
+    <div class="certComponent">
+        <div class="container">
+        <template for:each={certificates} for:item="certificate">
+            <div class="project" key={certificate.Id}>
+            <p class="projectName">{certificate.name}</p>
+            <p class="details">
+               <b>Certificate ID  :</b>{certificate.certId} <br/>
+            </p>
+            <div class="skills">
+                <ul>
+                    <template for:each={certificate.skills} for:item="skill">
+                        <li key={skill}><span class="badge">{skill}</span></li>
+                    </template>
+                </ul>
+            </div>
+        </div>
+        </template>
+    </div>
+    </div>
+</template>

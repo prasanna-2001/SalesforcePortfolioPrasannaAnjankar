@@ -1,3 +1,46 @@
 <template>
-    Contact Me
+    <div class="container">
+        <div class="header">
+            <p class="headline">Let's Connect</p>
+            <p class="subheading">Want to hire me, or just want to connect? Just add below details.</p>
+        </div>
+
+        <lightning-card class="details">
+            <div class="slds-p-around_medium">
+                <lightning-input
+                    label="Name"
+                    name="name"
+                    value={name}
+                    onchange={onHandleName}
+                    required>
+                </lightning-input>
+
+                <lightning-input
+                    label="Email"
+                    name="email"
+                    type="email"
+                    value={email}
+                    onchange={onHandleEmail}
+                    required>
+                </lightning-input>
+
+                <lightning-textarea
+                    label="Message"
+                    name="message"
+                    value={message}
+                    onchange={onHandleMessage}
+                    maxlength="80"
+                    required>
+                </lightning-textarea>
+
+                <div class="slds-m-top_medium slds-align_absolute-center">
+                    <lightning-button
+                        label="Send"
+                        variant="brand"
+                        onclick={handleSubmit}>
+                    </lightning-button>
+                </div>
+            </div>
+        </lightning-card>
+    </div>
 </template>

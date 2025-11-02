@@ -1,6 +1,12 @@
+.certSlideShow {
+    width: 100%;
+    max-width: 900px; /* control max width */
+    margin: auto; /* center align */
+}
+
 .container{
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-auto-rows: max-content;
     padding: 20px;
     grid-gap: 20px;
@@ -41,11 +47,14 @@
 }
 
 .skills ul li {
-    display: inline;
+    display: inline-block;
     padding: 5px;
 }
 
 @media(max-width: 950px) and (min-width: 450px) {
+    .container{
+    grid-template-columns: repeat(2, 1fr);
+    }
     .ProjectName{
         font-size: larger;
     }
@@ -75,6 +84,40 @@
         margin: 0px;
     }
 }
+
+
+
+.carousel-wrapper {
+    overflow: hidden;
+    position: relative;
+}
+
+.carousel-track {
+    display: flex;
+    transition: transform 0.5s ease;
+    justify-content: space-around;
+    transform: translateX(0%);
+    align-items: center;
+    width: 100% !important;
+    }
+
+
+
+.carousel-slide {
+    flex: 0 0 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel-slide img {
+    max-height: 80%;
+    max-width: 80%;
+    object-fit: contain;
+}
+
+
 
 
 @media(max-width: 450px) {

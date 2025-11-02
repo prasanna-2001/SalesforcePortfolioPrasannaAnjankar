@@ -5,7 +5,7 @@ export default class PortfolioMainComponent extends LightningElement {
     @track showProject = false;
     @track showSkills = false;
     @track showContact = false;
-
+    @track showCertification = false;
     handleNavigation(event) {
         var menu = event.detail;
         console.log('menu', menu);
@@ -16,6 +16,7 @@ export default class PortfolioMainComponent extends LightningElement {
             this.showProject = false;
             this.showSkills = false;
             this.showContact = false;
+            this.showCertification = false;
         } else if (menu == 'experience') {
             console.log('Experience');
             this.showAbout = false;
@@ -23,6 +24,7 @@ export default class PortfolioMainComponent extends LightningElement {
             this.showProject = false;
             this.showSkills = false;
             this.showContact = false;
+            this.showCertification = false;
         } else if (menu == 'project') {
             console.log('Project');
             this.showAbout = false;
@@ -30,6 +32,7 @@ export default class PortfolioMainComponent extends LightningElement {
             this.showProject = true;
             this.showSkills = false;
             this.showContact = false;
+            this.showCertification = false;
         } else if (menu == 'skills') {
             console.log('Skills');
             this.showAbout = false;
@@ -37,6 +40,7 @@ export default class PortfolioMainComponent extends LightningElement {
             this.showProject = false;
             this.showSkills = true;
             this.showContact = false;
+            this.showCertification = false;
         } else if (menu == 'contact') {
             console.log('Contact');
             this.showAbout = false;
@@ -44,6 +48,16 @@ export default class PortfolioMainComponent extends LightningElement {
             this.showProject = false;
             this.showSkills = false;
             this.showContact = true;
+            this.showCertification = false;
+        }
+        else if (menu == 'certificate') {
+            console.log('Certificate');
+            this.showAbout = false;
+            this.showExperience = false;
+            this.showProject = false;
+            this.showSkills = false;
+            this.showContact = false;
+            this.showCertification = true;
         }
     }
 }

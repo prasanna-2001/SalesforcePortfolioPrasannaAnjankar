@@ -3,7 +3,10 @@
         <c-portfolio-about-section></c-portfolio-about-section>
     </template>
     <template lwc:if={showExperience}>
-        <c-portfolio-experience-section></c-portfolio-experience-section> 
+        <c-portfolio-experience-section experiences={experiences}></c-portfolio-experience-section> 
+    </template>
+    <template lwc:if={showCertification}>
+        <c-portfolio-certification-section certificates={certificates}></c-portfolio-certification-section>
     </template>
     <template lwc:if={showProject}>
         <c-portfolio-project-section projects={projects}></c-portfolio-project-section>

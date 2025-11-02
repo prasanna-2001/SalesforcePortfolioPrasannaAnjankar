@@ -1,41 +1,43 @@
-.custom-container{
-	color : black;
-}
 .nav{
-	display: flex;
-	justify-content:center;
-	align-items: center;
-	padding: 14px;
-	background-color:#191712;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+    background-color: #191716;
 }
-
 .nav a{
-	font-weight: 600;
-	font-size: smaller;
-	color: #d7d7d7;
-	padding: 20px;
-	text-decoration: none;
-	transition:color 0.3 ease ;
+    font-weight: 600;
+    font-size: smaller;
+    color: #D7D7D7;
+    padding: 20px;
+    text-decoration: none;
+    transition: color 0.3s ease;
 }
 
 .togglebtn{
-	cursor: pointer;
-	display: none;
+    cursor: pointer;
+    display: none;
 }
+
 .dropdown{
-	height: 0;
-	display: none;
-	position: absolute;
-	width: 300px;
-	border-radius:0px 0px 15px 15px;
+    height: 0;
+    display: none;
+    position: absolute;
+    width: 300px;
+    border-radius:0px 0px 15px 15px;
     transition: height 0.2s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     overflow: hidden;
-    background: #191712;
+    background: #191716;
+}
+img {
+    max-width: 21px;
+    height: auto;
 }
 .dropdown.open{
-    height: 150px;
+    height: max-content;
     width: -webkit-fill-available;
 }
+
 .dropdown a{
     padding: 4px;
     display: flex;
@@ -47,10 +49,22 @@
     transition: color 0.3s ease;
 }
 
-.nav a:hover, .dropdown a:hover{
-    color: #E6AF2E;
-}
 
+/* .nav div:hover, .dropdown div:hover{
+    background-color: #E6AF2E;
+    color: black;
+    padding: 3px;
+    border-radius: 4px;
+    transition: color 0.7s ease;
+} */
+
+.selectedBox{
+    /* border: 1px solid #E6AF2E; */
+    background-color: #E6AF2E;
+    color: black !important ;
+    padding: 3px;
+    border-radius: 4px;
+}
 
 @media (max-width: 450px) {
     .nav{
