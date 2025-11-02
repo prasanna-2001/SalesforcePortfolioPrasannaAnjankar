@@ -4,7 +4,7 @@
 
 # Add below css to fix the margins and paddings of the community sites : 
 Builder--> Themes--->Edit CSS
-
+```CSS
 .comm-content-header{
     display:none ;
 }
