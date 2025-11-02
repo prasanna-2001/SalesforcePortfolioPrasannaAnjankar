@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Persistent Systems ltd.</label>
+    <protected>false</protected>
+    <values>
+        <field>Company__c</field>
+        <value xsi:type="xsd:string">Persistent Systems ltd.</value>
+    </values>
+    <values>
+        <field>Domain__c</field>
+        <value xsi:type="xsd:string">Salesforce Development</value>
+    </values>
+    <values>
+        <field>Job_Description__c</field>
+        <value xsi:type="xsd:string">Reduced the operational overhead by almost 30% by streamlining workflows and improving data visibility using API integration, Apex classes and LWC. &amp;&amp; Integrated external systems with Salesforce using the REST API to ensure smooth data exchange. &amp;&amp; Designed and enforced logging, error handling and retry mechanism using Apex. &amp;&amp; Developed Salesforce triggers using the trigger framework (handler pattern). Implemented Async Apex and optimized SOQL queries to enhance functionality and ensuring seamless data flow. &amp;&amp; Applied best coding practices to ensure average code coverage of 90% for Apex test classes. &amp;&amp; Ensured security by configuring Salesforce sharing rules, permission sets, and profiles. &amp;&amp;  Collaborated with clients to gather requirements and resolve business challenges. &amp;&amp; Enhanced user experience by setting page layouts and lightning record pages. &amp;&amp; Performed deployment activities using DevOps practices with git/GitHub and VS Code.</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+    <values>
+        <field>Position__c</field>
+        <value xsi:type="xsd:string">Senior Software Engineer</value>
+    </values>
+    <values>
+        <field>Skills__c</field>
+        <value xsi:type="xsd:string">Lightning Web Component,Apex ProgrammingJavaScript,Service Cloud,Experience Cloud,SOQLAdmin,Aura Component</value>
+    </values>
+    <values>
+        <field>Tenure__c</field>
+        <value xsi:type="xsd:string">23 Sept 2023 - Present</value>
+    </values>
+</CustomMetadata>

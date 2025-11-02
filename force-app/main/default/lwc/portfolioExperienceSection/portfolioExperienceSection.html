@@ -1,3 +1,31 @@
 <template>
-    Experience
+    <div class="container">
+        <template for:each={experiences} for:item="experience">
+            <div class="experience" key={experience.Id}>
+                <div class="exp">
+                    <p class="designation">{experience.position} &#9830; <span
+                            class="company">{experience.company}</span></p>
+                    <p class="tenure"><span class="field">{experience.domain}</span> &#9830; {experience.tenure}</p>
+                    <template for:each={experience.jobDescription} for:item="desc">
+                        <p key={experience.Id} class="details">&#10022;{desc}
+                        </p>
+                    </template>
+                    <div class="skills">
+                        <ul>
+                            <li><span class="badge">Lightning Web Component</span></li>
+                            <li><span class="badge">Aura Component</span></li>
+                            <li><span class="badge">Apex Programming</span></li>
+                            <li><span class="badge">JavaScript</span></li>
+                            <li><span class="badge">SOQL</span></li>
+                            <li><span class="badge">Admin</span></li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="logo">
+                    <a href={persiUrl} target="_blank"><img class="img" src={persiLogo}></a>
+                </div>
+            </div>
+
+        </template>
+    </div>
 </template>
