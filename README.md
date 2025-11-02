@@ -24,7 +24,7 @@ Builder--> Themes--->Edit CSS
     padding: 0;   
     width:100% ;
 }
-
+```
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
 
 # Salesforce DX Project: Next Steps
