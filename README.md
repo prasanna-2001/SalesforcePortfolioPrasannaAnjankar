@@ -2,6 +2,31 @@
 
 [https://ycce109-dev-ed.my.site.com/PortfolioPrasannaAnjankar/s/](https://ycce109-dev-ed.my.site.com/PortfolioPrasannaAnjankar/s/)
 
+# Add below css to fix the margins and paddings of the community sites : 
+Builder--> Themes--->Edit CSS
+
+.comm-content-header{
+    display:none ;
+}
+.comm-content-footer {
+    display:none;
+}
+.contentRegion{
+   margin: 0 ;
+   padding: 0 !important;  
+}
+.siteforceContentArea {
+   margin: 0 ;
+   padding: 0 ;
+}
+.cCenterPanel{
+  margin: 0 ;
+    padding: 0;   
+    width:100% ;
+}
+
+Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
+
 # Salesforce DX Project: Next Steps
 
 Now that you’ve created a Salesforce DX project, what’s next? Here are some documentation resources to get you started.
