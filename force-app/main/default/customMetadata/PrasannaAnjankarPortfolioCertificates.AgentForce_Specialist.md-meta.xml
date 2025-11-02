@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>AgentForce Specialist</label>
+    <protected>false</protected>
+    <values>
+        <field>CertId__c</field>
+        <value xsi:type="xsd:string">5688673</value>
+    </values>
+    <values>
+        <field>Link__c</field>
+        <value xsi:type="xsd:string">/sfsites/c/resource/1761457410000/PortfolioAssets/PortfolioAssets/AgentForceSpecialist.png</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+    <values>
+        <field>Skillls__c</field>
+        <value xsi:type="xsd:string">AgentForce, Custom Actions,AgentForce Flows</value>
+    </values>
+</CustomMetadata>

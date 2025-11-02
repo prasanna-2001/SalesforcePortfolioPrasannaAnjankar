@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Platform Developer 2</label>
+    <protected>false</protected>
+    <values>
+        <field>CertId__c</field>
+        <value xsi:type="xsd:string">5802974</value>
+    </values>
+    <values>
+        <field>Link__c</field>
+        <value xsi:type="xsd:string">/sfsites/c/resource/1761457410000/PortfolioAssets/PortfolioAssets/PD2.png</value>
+    </values>
+    <values>
+        <field>Order__c</field>
+        <value xsi:type="xsd:double">2.0</value>
+    </values>
+    <values>
+        <field>Skillls__c</field>
+        <value xsi:type="xsd:string">Advance Apex, Advance Asynchronous Apex, LWC,Triggers, Salesforce Customization</value>
+    </values>
+</CustomMetadata>
