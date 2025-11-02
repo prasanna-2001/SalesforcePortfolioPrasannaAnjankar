@@ -1,10 +1,48 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <Package xmlns="http://soap.sforce.com/2006/04/metadata">
-	
 	<types>
-		<members>*</members>
-		<name>Flow</name>
+		<members>PortfolioController</members>
+		<name>ApexClass</name>
 	</types>
-	
+	<types>
+		<members>PrasannaAnjankarPortfolioCertificates.Administrator</members>
+		<members>PrasannaAnjankarPortfolioCertificates.AgentForce_Specialist</members>
+		<members>PrasannaAnjankarPortfolioCertificates.JavaScript_Developer_1</members>
+		<members>PrasannaAnjankarPortfolioCertificates.Platform_App_Builder</members>
+		<members>PrasannaAnjankarPortfolioCertificates.Platform_Developer_1</members>
+		<members>PrasannaAnjankarPortfolioCertificates.Platform_Developer_2</members>
+		<members>PrasannaAnjankarPortfolioExperience.Persistent_Systems_ltd</members>
+		<members>PrasannaAnjankarPortfolioProjects.Devotee_Management</members>
+		<members>PrasannaAnjankarPortfolioProjects.Game_Search</members>
+		<members>PrasannaAnjankarPortfolioProjects.Insurance_Process_and_Hospital_Services</members>
+		<members>PrasannaAnjankarPortfolioProjects.Patient_Management_for_Radiology_and_Con</members>
+		<members>PrasannaAnjankarPortfolioProjects.Portfolio_using_LWC</members>
+		<members>PrasannaAnjankarPortfolioSkills.Other_Technical_Skills</members>
+		<members>PrasannaAnjankarPortfolioSkills.Salesforce</members>
+		<members>PrasannaAnjankarPortfolioSkills.Tools</members>
+		<name>CustomMetadata</name>
+	</types>
+	<types>
+		<members>portfolioAboutSection</members>
+		<members>portfolioBody</members>
+		<members>portfolioCertificationSection</members>
+		<members>portfolioContactMeSection</members>
+		<members>portfolioExperienceSection</members>
+		<members>portfolioFooter</members>
+		<members>portfolioMainComponent</members>
+		<members>portfolioNavigationHeader</members>
+		<members>portfolioProjectSection</members>
+		<members>portfolioSkillSection</members>
+		<name>LightningComponentBundle</name>
+	</types>
+	<types>
+		<members>Prasanna Anjankar Portfolio Profile</members>
+		<name>Profile</name>
+	</types>
+	<types>
+		<members>PortfilioResume</members>
+		<members>PortfolioAssets</members>
+		<name>StaticResource</name>
+	</types>
 	<version>65.0</version>
 </Package>
